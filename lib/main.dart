@@ -15,7 +15,8 @@ class MainApp extends StatelessWidget { // construtor da classe mais extendendo 
       appBar: AppBar(
         title: const Text('Hello World'),
       ),
-      body: Container(color: const Color.fromARGB(255, 25, 80, 25),child: const Text("Olá Mundo"),),
+      body: const Padding(padding: EdgeInsets.all(16), //padding coloca borda edgeInsets coloca a borda
+      child: Text("Olá Mundo"),) 
     ),//janela principal
    );// Montando o tema da sua aplicacao
   }
